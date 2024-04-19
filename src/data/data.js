@@ -1,5 +1,6 @@
 const data = [{
     "id": "E1002",
+    "image": "profile1.png",
     "firstName": "John",
     "lastName": "Smith",
     "email": "john.smith@example.com",

@@ -9,7 +9,7 @@ const data = [{
     "employmentType": "Part-Time",
     "skills": ["Sketch", "Figma", "Adobe XD"],
     "hoursLoggedThisWeek": 20,
-    "onLeave": false
+    "onLeave": true
   },
   
   {
@@ -29,7 +29,6 @@ const data = [{
   {
     "id": "E1004",
     "image": "profile3.png",
-
     "firstName": "Mark",
     "lastName": "Brown",
     "email": "mark.brown@example.com",
@@ -38,7 +37,7 @@ const data = [{
     "employmentType": "Full-Time",
     "skills": ["Node.js", "MongoDB", "Express"],
     "hoursLoggedThisWeek": 40,
-    "onLeave": true
+    "onLeave": false
   },
   
   {
@@ -59,7 +58,6 @@ const data = [{
   {
     "id": "E1006",
     "image": "profile5.png",
-
     "firstName": "Alex",
     "lastName": "Johnson",
     "email": "alex.johnson@example.com",

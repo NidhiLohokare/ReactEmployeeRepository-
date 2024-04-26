@@ -32,10 +32,15 @@ export default function MediaCard({ employee }) {
               {item.position}
             </Typography>
           </CardContent>
-
-          <Stack direction="row" spacing={1}>
-            <Chip label="Chip Filled" />
-            <Chip label="Chip Outlined" variant="outlined" />
+                    <Stack> 
+                    {item.skills.map((skill,skillIndex) =>(
+                    <Chip
+                    variant= "outlined"
+                    sx={{marginTop: "10px"}}
+                    key={skillIndex}
+                    label={skill}
+                    />
+                    ))}
           </Stack>
 
           <CardActions>
